@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    margin: 30px 0;
+    font-weight: 300;
+    color: #423A3A;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textState {
+    display: flex;
+    flex-direction: column;
+}
+
+.textDestaque {
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.red {
+    font-weight: 700;
+    color: red;
+}
+
+.input {
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 20px 0px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #E2E2E2;
+    color: #423A3A;
+    outline: none;
+}
+
+.input:active {
+    border: none;
+}
+.input:focus {
+    border: solid 1px #61DAFB;
+    box-shadow: 
+        2px 0 10px 0 rgba(140, 192, 189, 0.12),
+        2px 0 10px 0 rgba(168, 188, 189, 0.09);
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: ##F8F9FB;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #423A3A;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.Content {
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Content > * {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
